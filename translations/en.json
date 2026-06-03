@@ -1,0 +1,16 @@
+{
+  "entity": {
+    "sensor": {
+      "clothing_val": { "name": "Clothing" },
+      "clothing_desc": { "name": "Clothing description" },
+      "aqi_val": { "name": "Air quality" },
+      "aqi_desc": { "name": "Air quality description" },
+      "uv_val": { "name": "UV index" },
+      "uv_desc": { "name": "UV index description" },
+      "warnings_val": { "name": "Weather warnings" },
+      "snow_depth": { "name": "Snow depth" },
+      "lake_temp": { "name": "Lake temperature" },
+      "ice_thickness": { "name": "Ice thickness" }
+    }
+  }
+}

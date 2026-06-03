@@ -1,0 +1,16 @@
+{
+  "entity": {
+    "sensor": {
+      "clothing_val": { "name": "Pukeutuminen" },
+      "clothing_desc": { "name": "Pukeutuminen kuvaus" },
+      "aqi_val": { "name": "Ilmanlaatu" },
+      "aqi_desc": { "name": "Ilmanlaatu kuvaus" },
+      "uv_val": { "name": "UV-indeksi" },
+      "uv_desc": { "name": "UV-indeksi kuvaus" },
+      "warnings_val": { "name": "Säävaroitukset" },
+      "snow_depth": { "name": "Lumensyvyys" },
+      "lake_temp": { "name": "Järviveden lämpötila" },
+      "ice_thickness": { "name": "Jään paksuus" }
+    }
+  }
+}

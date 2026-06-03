@@ -1,0 +1,14 @@
+{
+  "domain": "foreca_ha",
+  "name": "Foreca",
+  "codeowners": ["@Jarauvi"],
+  "config_flow": true,
+  "documentation": "https://github.com/Jarauvi/foreca_ha/tree/main",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/Jarauvi/foreca_ha/issues",
+  "loggers": ["custom_components.foreca_ha"],
+  "version": "0.1.0",
+  "requirements": [
+    "mapbox-vector-tile==2.2.0"
+  ]
+}
