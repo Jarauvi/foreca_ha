@@ -23,55 +23,42 @@ _LOGGER = logging.getLogger(__name__)
 
 SENSOR_DESCRIPTIONS: list[SensorEntityDescription] = [
     SensorEntityDescription(
-        key="clothing_val",
-        name="Clothing",
-        translation_key="clothing_val",
-        icon="mdi:tshirt-crew",
-    ),
-    SensorEntityDescription(
         key="clothing_desc",
-        name="Clothing description",
         translation_key="clothing_desc",
-        icon="mdi:text-information",
+        icon="mdi:tshirt-crew",
         entity_category=EntityCategory.DIAGNOSTIC,
     ),
     SensorEntityDescription(
         key="aqi_val",
-        name="Air quality",
         translation_key="aqi_val",
         state_class=SensorStateClass.MEASUREMENT,
         icon="mdi:air-filter",
     ),
     SensorEntityDescription(
         key="aqi_desc",
-        name="Air quality description",
         translation_key="aqi_desc",
         icon="mdi:comment-text-outline",
         entity_category=EntityCategory.DIAGNOSTIC,
     ),
     SensorEntityDescription(
         key="uv_val",
-        name="UV index",
         translation_key="uv_val",
         state_class=SensorStateClass.MEASUREMENT,
         icon="mdi:weather-sunny-alert",
     ),
     SensorEntityDescription(
         key="uv_desc",
-        name="UV index description",
         translation_key="uv_desc",
         icon="mdi:alert-circle-outline",
         entity_category=EntityCategory.DIAGNOSTIC,
     ),
     SensorEntityDescription(
         key="warnings_val",
-        name="Weather warnings",
         translation_key="warnings_val",
         icon="mdi:alert-octagon",
     ),
     SensorEntityDescription(
         key="snow_depth",
-        name="Snow depth",
         translation_key="snow_depth",
         icon="mdi:snowflake",
         native_unit_of_measurement=UnitOfLength.CENTIMETERS,
@@ -80,7 +67,6 @@ SENSOR_DESCRIPTIONS: list[SensorEntityDescription] = [
     ),
     SensorEntityDescription(
         key="lake_temp",
-        name="Lake temperature",
         translation_key="lake_temp",
         native_unit_of_measurement=UnitOfTemperature.CELSIUS,
         device_class=SensorDeviceClass.TEMPERATURE,
@@ -89,7 +75,6 @@ SENSOR_DESCRIPTIONS: list[SensorEntityDescription] = [
     ),
     SensorEntityDescription(
         key="ice_thickness",
-        name="Ice thickness",
         translation_key="ice_thickness",
         native_unit_of_measurement=UnitOfLength.CENTIMETERS,
         device_class=SensorDeviceClass.DISTANCE,

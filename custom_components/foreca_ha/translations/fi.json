@@ -1,8 +1,19 @@
 {
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "location_path": "Sijaintipolku (esim. Finland/Helsinki)",
+          "snow_station": "Lumihavaintoasema",
+          "lake_station": "Järviveden mittausasema",
+          "ice_station": "Jäänmittausasema"
+        }
+      }
+    }
+  },
   "entity": {
     "sensor": {
-      "clothing_val": { "name": "Pukeutuminen" },
-      "clothing_desc": { "name": "Pukeutuminen kuvaus" },
+      "clothing_desc": { "name": "Pukeutumissuositus" },
       "aqi_val": { "name": "Ilmanlaatu" },
       "aqi_desc": { "name": "Ilmanlaatu kuvaus" },
       "uv_val": { "name": "UV-indeksi" },

@@ -1,8 +1,19 @@
 {
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "location_path": "Location path (e.g. Finland/Helsinki)",
+          "snow_station": "Snow observation station",
+          "lake_station": "Lake temperature station",
+          "ice_station": "Ice thickness station"
+        }
+      }
+    }
+  },
   "entity": {
     "sensor": {
-      "clothing_val": { "name": "Clothing" },
-      "clothing_desc": { "name": "Clothing description" },
+      "clothing_desc": { "name": "Clothing recommendation" },
       "aqi_val": { "name": "Air quality" },
       "aqi_desc": { "name": "Air quality description" },
       "uv_val": { "name": "UV index" },
