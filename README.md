@@ -1,5 +1,5 @@
 <div align="center" border-radius="15px">
-  <img src="https://github.com/Jarauvi/foreca_ha/blob/main/custom_components/foreca_ha/brand/icon@2x.png?raw=true" width="256">
+  <img src="https://github.com/Jarauvi/foreca_ha/blob/main/custom_components/foreca_ha/brand/icon@2x.png?raw=true" width="64">
 
   # Foreca Scraper for Home Assistant
 
