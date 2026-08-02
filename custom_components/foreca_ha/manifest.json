@@ -8,5 +8,5 @@
   "issue_tracker": "https://github.com/Jarauvi/foreca_ha/issues",
   "loggers": ["custom_components.foreca_ha"],
   "version": "0.1.1",
-  "requirements": ["beautifulsoup4==4.12.3", "mapbox-vector-tile==2.1.0"]
+  "requirements": ["beautifulsoup4==4.12.3"]
 }

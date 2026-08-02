@@ -81,7 +81,7 @@
 
 ## 🛠️ Technical Details
 
-This integration uses `beautifulsoup4` for HTML parsing and `mapbox-vector-tile` for decoding highly compressed weather map layers. The `DataUpdateCoordinator` is optimized to fetch all three data sources (HTML, Tiles, JSON) in a single update cycle every 30 minutes to stay within fair usage limits.
+This integration uses `beautifulsoup4` for HTML parsing and a bundled pure-Python decoder for decoding highly compressed weather map layers (MVT/Protobuf). The `DataUpdateCoordinator` is optimized to fetch all three data sources (HTML, Tiles, JSON) in a single update cycle every 30 minutes to stay within fair usage limits.
 
 ---
 
