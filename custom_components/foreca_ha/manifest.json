@@ -8,5 +8,5 @@
   "issue_tracker": "https://github.com/Jarauvi/foreca_ha/issues",
   "loggers": ["custom_components.foreca_ha"],
   "requirements": ["beautifulsoup4==4.12.3"],
-  "version": "0.1.1"
+  "version": "0.2.0"
 }

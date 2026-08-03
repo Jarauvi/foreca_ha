@@ -6,6 +6,7 @@
   [![Home Assistant](https://img.shields.io/badge/home%20assistant-%2341BDF5.svg?style=for-the-badge&logo=home-assistant&logoColor=white)](https://www.home-assistant.io/)
   [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
   [![Version](https://img.shields.io/badge/Version-0.1.0-orange.svg?style=for-the-badge)](https://github.com/Jarauvi/foreca_ha)
+   [![Tests](https://github.com/Jarauvi/foreca_ha/actions/workflows/tests.yaml/badge.svg)](https://github.com/Jarauvi/foreca_ha/actions)
   ![Cloud Polling](https://img.shields.io/badge/IOT_class-Cloud_polling-blue?style=for-the-badge)
 
   **Fetches environmental data for Home Assistant from Foreca.**
